@@ -169,7 +169,7 @@ int main () {
         try {
             std::cout << ">>> " << interpreter.interprete() << std::endl;
         } catch (std::exception& e) {
-            std::cout << "Error: " << e.what() << std::endl;
+            std::cout << "Error " << e.what() << std::endl;
         }
     }
 };
